@@ -1,0 +1,200 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+
+	"bonemain": {
+		"type": "origins:active_self",
+		"cooldown": 5,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+  					"permission_level": 4,
+  					"command": "clear @s minecraft:bone 1"
+  				},
+  				{
+  					"type": "origins:feed",
+  					"food": 2,
+  					"saturation": 4
+  				},
+  				{
+  					"type": "origins:execute_command",
+  					"command": "playsound minecraft:ghostburp.burp player @s ~ ~ ~ 5"
+  				}
+  			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {"item": "minecraft:bone"}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<=",
+					"compare_to": 19
+				}
+			]
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	},
+
+	"boneoff": {
+		"type": "origins:active_self",
+		"cooldown": 5,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+  					"permission_level": 4,
+  					"command": "clear @s minecraft:bone 1"
+  				},
+  				{
+  					"type": "origins:feed",
+  					"food": 2,
+  					"saturation": 4
+  				},
+  				{
+  					"type": "origins:execute_command",
+  					"command": "playsound minecraft:ghostburp.burp player @s ~ ~ ~ 5"
+  				}
+  			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {"item": "minecraft:bone"}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<=",
+					"compare_to": 19
+				}
+			]
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	},
+
+	"membranemain": {
+		"type": "origins:active_self",
+		"cooldown": 5,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+  					"permission_level": 4,
+  					"command": "clear @s minecraft:phantom_membrane 1"
+  				},
+  				{
+  					"type": "origins:feed",
+  					"food": 5,
+  					"saturation": 10
+  				},
+  				{
+  					"type": "origins:execute_command",
+  					"command": "playsound minecraft:ghostburp.burp player @s ~ ~ ~ 5"
+  				}
+  			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {"item": "minecraft:phantom_membrane"}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<=",
+					"compare_to": 19
+				}
+			]
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	},
+
+	"membraneoff": {
+		"type": "origins:active_self",
+		"cooldown": 5,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+  					"permission_level": 4,
+  					"command": "clear @s minecraft:phantom_membrane 1"
+  				},
+  				{
+  					"type": "origins:feed",
+  					"food": 5,
+  					"saturation": 10
+  				},
+  				{
+  					"type": "origins:execute_command",
+  					"command": "playsound minecraft:ghostburp.burp player @s ~ ~ ~ 5"
+  				}
+  			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {"item": "minecraft:phantom_membrane"}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<=",
+					"compare_to": 19
+				}
+			]
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	}
+}

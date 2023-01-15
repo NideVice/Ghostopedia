@@ -1,0 +1,15 @@
+{
+	"name": "Poltergeist",
+    "description": "You are a being that has passed away giving you ghostly abilities as you struggle to maintain existence",
+    "icon": "minecraft:soul_lantern",
+    "impact": 2,
+    "powers": [
+    	"ghostopedia:food_pref/esoteric_diet",
+    	"ghostopedia:food_pref/esoteric_food",
+    	"ghostopedia:poltergeist/levitation_attack",
+    	"ghostopedia:poltergeist/blue_ghost_skin",
+    	"ghostopedia:poltergeist/glow",
+    	"ghostopedia:ectoplasmic",
+    	"ghostopedia:paradox"
+    ]
+}
