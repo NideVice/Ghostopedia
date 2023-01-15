@@ -1,0 +1,28 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Magic Diet",
+  "description":"You can only eat various powders... glowstone dust, redstone, gunpowder...",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {"tag": "ghostopedia:magic_food"}
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {"tag": "ghostopedia:ignore_diet"},
+        "inverted": true
+      }
+    ]
+  }
+}

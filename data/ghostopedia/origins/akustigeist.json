@@ -1,0 +1,15 @@
+{
+	"name": "Akustigeist",
+	"description": "You are a musician who has passed away, but your desire to create music supports your existence",
+	"impact": 3,
+	"icon": "minecraft:music_disc_11",
+	"powers": [
+		"ghostopedia:akustigeist/acoustic_wave",
+		"ghostopedia:akustigeist/harmony",
+		"ghostopedia:akustigeist/yellow_ghost_body",
+		"ghostopedia:ectoplasmic",
+		"ghostopedia:magic_diet",
+		"ghostopedia:paradox"
+
+	]
+}

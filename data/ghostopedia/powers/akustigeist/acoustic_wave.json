@@ -1,0 +1,55 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command" : "playsound minecraft:entity.warden.sonic_boom player @a ~ ~ ~ 5"
+			},
+			{
+				"type":"origins:raycast",
+				"distance": 32,
+				"block": true,
+				"entity":true,
+				"shape_type": "outline",
+				"command_at_hit": "particle minecraft:sonic_boom ~ ~ ~ 2 2 2 1 6 normal @a",
+				"command_step": 32,
+				"bientity_action": {
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:area_of_effect",
+						"radius": 5,
+						"include_target": true,
+						"bientity_action": {
+							"type": "origins:target_action",
+							"action": {
+								"type": "origins:damage",
+								"amount": 13,
+								"source": {
+									"name": "sonic_boom.player",
+									"bypasses_armor":false
+								}
+							},
+							"bientity_condition": {
+								"type": "origins:can_see"
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	"cooldown": 400,
+	"hud_render": {
+		"should_ender":true,
+		"sprite_location": "ghostopedia:gui/hud_bar_1.png",
+		"bar_index": 0
+	},
+	"key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+	"name": "Acoustic wave",
+	"description" : "Your voice is like thunder, and your scream can tear the flesh from enemies"
+}

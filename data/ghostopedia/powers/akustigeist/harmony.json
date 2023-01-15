@@ -1,0 +1,6 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:sonic_boom",
+  "frequency": 40,
+  "hidden": true
+}
