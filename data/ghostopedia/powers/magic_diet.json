@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_item_use",
   "name": "Magic Diet",
-  "description":"You can only eat various powders... glowstone dust, redstone, gunpowder...",
+  "description":"You can only eat various magic food... gapple, egapple, gcarrot...",
   "item_condition": {
     "type": "origins:and",
     "conditions": [
