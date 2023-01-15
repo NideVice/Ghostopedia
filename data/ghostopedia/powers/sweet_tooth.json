@@ -1,0 +1,28 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Sweet tooth",
+  "description":"You can only eat various sweets... cake, cookie, pumpkin pie, berries and honey...",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {"tag": "ghostopedia:sweets"}
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {"tag": "ghostopedia:ignore_diet"},
+        "inverted": true
+      }
+    ]
+  }
+}

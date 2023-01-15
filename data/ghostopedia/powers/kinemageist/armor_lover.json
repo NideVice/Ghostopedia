@@ -1,0 +1,108 @@
+{
+	"type": "origins:multiple",
+	"name" : "Armor lover",
+	"description": "you believe in the power of armor so much that their presence raises your morale, but everything has a price...",
+
+	"damageup0":	{
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.attack_damage",
+      		"operation": "addition",
+      		"value": 1
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "head",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "damageup1":	{ "type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.attack_damage",
+      		"operation": "addition",
+      		"value": 1
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "chest",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "damageup2":	{
+    	"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.attack_damage",
+      		"operation": "addition",
+      		"value": 1
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "legs",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "damageup3":	{
+    	"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.attack_damage",
+      		"operation": "addition",
+      		"value": 1
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "feet",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "hp0":	{
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.max_health",
+      		"operation": "addition",
+      		"value": -2
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "head",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "hp1":	{ "type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.max_health",
+      		"operation": "addition",
+      		"value": -2
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "chest",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "hp2":	{
+    	"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.max_health",
+      		"operation": "addition",
+      		"value": -2
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "legs",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    },
+    "hp3":	{
+    	"type": "origins:conditioned_attribute",
+		"modifier": {
+      		"attribute": "minecraft:generic.max_health",
+      		"operation": "addition",
+      		"value": -2
+    	},
+    	"condition": {
+    		"type": "origins:equipped_item",
+    		"equipment_slot": "feet",
+    		"item_condition": {"type": "origins:empty","inverted": true}
+    	}
+    }
+}

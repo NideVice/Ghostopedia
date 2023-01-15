@@ -1,0 +1,14 @@
+{
+	"name": "Kinemageist",
+	"description": "you are a philosopher who has passed away, you did not want this, and now the desire for revenge directs you",
+	"impact": 3,
+	"icon": "minecraft:writable_book",
+	"powers": [
+		"ghostopedia:kinemageist/armor_lover",
+		"ghostopedia:kinemageist/knowledge",
+		"ghostopedia:kinemageist/purple_ghost_body",
+		"ghostopedia:ectoplasmic",
+		"ghostopedia:sweet_tooth",
+		"ghostopedia:paradox"
+	]
+}
