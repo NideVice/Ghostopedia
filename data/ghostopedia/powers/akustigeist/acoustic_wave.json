@@ -5,7 +5,7 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command" : "playsound minecraft:entity.warden.sonic_boom player @a ~ ~ ~ 5"
+				"command" : "playsound minecraft:ghostvoice.sing player @a ~ ~ ~ 5"
 			},
 			{
 				"type":"origins:raycast",
