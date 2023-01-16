@@ -1,0 +1,39 @@
+{
+	"type": "origins:active_self",
+	"name": "Hot Faith",
+    "description": "You have always been fiercely loyal to the king. Now every opponent can feel your faith",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:area_of_effect",
+				"radius": 32,
+				"bientity_action": {
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:set_on_fire",
+						"duration": 20
+					}
+				},
+				"bientity_condition": {
+					"type": "origins:can_see"
+				}
+			},
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.blaze.ambient",
+				"volume": 2
+			}
+		]
+	},
+	"cooldown": 2400,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "ghostopedia:gui/hud_bar_1.png",
+		"bar_index":2
+	},
+	"key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    }
+}

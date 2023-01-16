@@ -1,14 +1,15 @@
 {
 	"name": "Kinemageist",
-	"description": "you are a warrior who has passed away, you did not want this, and now the desire for revenge directs you",
+	"description": "You are a warrior who has passed away, you did not want this, and now the desire for revenge directs you",
 	"impact": 3,
 	"icon": "minecraft:netherite_axe",
 	"powers": [
 		"ghostopedia:kinemageist/armor_lover",
 		"ghostopedia:kinemageist/rage",
 		"ghostopedia:kinemageist/purple_ghost_body",
-		"ghostopedia:ectoplasmic",
 		"ghostopedia:food_pref/sweet_tooth",
+		"ghostopedia:ectoplasmic",
+		"ghostopedia:insomnia",
 		"ghostopedia:paradox"
 	]
 }

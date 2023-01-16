@@ -1,0 +1,20 @@
+{
+	"name": "Termageist",
+	"description": "You are a brutal piglin who has passed away, but your principles have allowed you to continue to exist",
+	"impact": 3,
+	"icon": "minecraft:golden_axe",
+	"powers": [
+		"ghostopedia:termageist/axemaster",
+		"ghostopedia:termageist/berserker",
+		"ghostopedia:termageist/aoefire",
+		"ghostopedia:termageist/palladinprinciple",
+		"ghostopedia:termageist/piglinsspirit",
+		"ghostopedia:termageist/legendofnether",
+		"ghostopedia:termageist/swordignore",
+		"ghostopedia:insomnia",
+		"ghostopedia:strong_ectoplasma",
+		"ghostopedia:termageist/flame",
+		"ghostopedia:termageist/fire_ghost_skin"
+	]
+
+}

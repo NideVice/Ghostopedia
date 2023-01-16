@@ -1,0 +1,31 @@
+{
+   "name":"Palladin Principle",
+   "description":"You will fight without sparing yourself and defeat the enemy!!!",
+   "type":"origins:stacking_status_effect",
+   "min_stacks":0,
+   "max_stacks":10,
+   "duration_per_stack":20,
+   "effects":[
+      {
+         "effect":"minecraft:resistance",
+         "duration":120,
+         "amplifier":2,
+         "is_ambient":true,
+         "show_particles":false,
+         "show_icon":false
+      },
+      {
+         "effect":"minecraft:darkness",
+         "duration":120,
+         "amplifier": 0,
+         "is_ambient":true,
+         "show_particles":false,
+         "show_icon":false
+      }
+   ],
+   "condition":{
+      "type":"origins:health",
+      "comparison":"<=",
+      "compare_to":5
+   }
+}

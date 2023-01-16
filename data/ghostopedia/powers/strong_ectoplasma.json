@@ -1,0 +1,19 @@
+{
+   "type":"origins:stacking_status_effect",
+
+   "name": "Strong ectoplasma",
+   "description": "You're not burning in the sun, but the light is blinding you",
+   
+   "min_stacks":0,
+   "max_stacks":5,
+   "duration_per_stack":20,
+   "effects":[
+      {
+         "effect":"minecraft:blindness",
+         "is_ambient":true,
+         "show_particles":false,
+         "show_icon":false
+      }
+   ],
+   "condition": {"type": "origins:exposed_to_sun"}
+}

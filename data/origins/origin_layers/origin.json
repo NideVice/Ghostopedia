@@ -2,6 +2,8 @@
   "replace": false,
   "origins": [
     "ghostopedia:akustigeist",
-    "ghostopedia:kinemageist"
+    "ghostopedia:kinemageist",
+    "ghostopedia:termageist",
+    "ghostopedia:poltergeist"
   ]
 }

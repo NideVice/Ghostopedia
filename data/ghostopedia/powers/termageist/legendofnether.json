@@ -1,0 +1,29 @@
+{
+	"type": "origins:action_over_time",
+
+	"name": "Legendary Piglin",
+	"description": "You are a legend among the piglins, even when you have become a spirit, they respect you",
+	
+	"interval": 40,
+	"entity_action": {
+		"type": "origins:and",
+		"actions":
+		[	
+			{
+				"type": "origins:execute_command",
+				"command": "team join Piglin @e[type=minecraft:piglin]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join Piglin @e[type=minecraft:zombified_piglin]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join Piglin @e[type=minecraft:piglin_brute]",
+				"permission_level": 4
+			}
+		]
+	}
+}
