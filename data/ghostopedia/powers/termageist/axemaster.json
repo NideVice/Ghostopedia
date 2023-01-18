@@ -2,7 +2,7 @@
 	"type": "origins:modify_damage_dealt",
 	
 	"name": "Axe Master",
-	"description": "you've been training all your life to use an axe and a crossbow, so you masterfully own them, but you don't get any other weapons",
+	"description": "You've been training all your life to use an axe and a crossbow, so you masterfully own them, but you don't get any other weapons",
 
 	"condition":{
 		"type":"origins:equipped_item",

@@ -1,6 +1,6 @@
 {
    "name":"Berserker Principle",
-   "description":"the enemy will not stand before the primordial rage of the berserker!!!",
+   "description":"The enemy will not stand before the primordial rage of the berserker!!!",
    "type":"origins:active_self",
    "entity_action":{
       "type": "origins:and",
