@@ -1,0 +1,64 @@
+{
+    "type": "origins:multiple",
+
+    "name": "§2§nFlight of messenger",
+    "description": "You can flight, but a long flight is hard for you",
+
+    "flight": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_timer",
+            "comparison": "!=",
+            "compare_to": 0
+        }
+    },
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "start_value": 1,
+        "max": 100,
+        "hud_render": {
+            "sprite_location": "ghostopedia:gui/hud_bar_1.png",
+            "bar_index": 1
+        }
+    },
+    "countdown": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:creative_flying"
+                    },
+                    {
+                        "type": "origins:food_level",
+                        "comparison": "<=",
+                        "compare_to": 6
+                    }
+                ]
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_timer",
+                "change": -10
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_timer",
+                "change": 1
+            }
+        },
+        "interval": 5
+    },
+    "fall": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "inverted": true
+    }
+}

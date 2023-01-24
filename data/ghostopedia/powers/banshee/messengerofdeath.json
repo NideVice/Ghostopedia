@@ -1,0 +1,83 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 40,
+	"entity_action": {
+		"type": "origins:and",
+		"actions":
+		[	
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:zombie]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:zombified_piglin]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:skeleton]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:husk]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:drowned]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:zombie_villager]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=minecraft:wither_skeleton]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:ghoul]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:ghouling]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:lich]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:reaper]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:revenant]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:skeleton_creeper]",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "team join UndeadNeutrality @e[type=graveyard:graveyard:wraith]",
+				"permission_level": 4
+			}
+		]
+	},
+
+	"name": "§2§nMessenger of death",
+	"description": "The undead respect you and do not interfere with your work."
+}

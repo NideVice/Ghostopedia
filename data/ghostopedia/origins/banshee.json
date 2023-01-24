@@ -1,0 +1,15 @@
+{
+	"name": "Banshee",
+	"description": "You are the messenger of death. No, you don't kill, you come to those who will die soon and you get paid for it.",
+	"impact": 2,
+	"icon": "minecraft:ghast_tear",
+	"powers": [
+		"ghostopedia:undeadneutrality",
+		"ghostopedia:banshee/salary",
+		"ghostopedia:banshee/messengerofdeath",
+		"ghostopedia:banshee/flight",
+		"ghostopedia:banshee/smallsize",
+		"ghostopedia:sleepdeprivation",
+		"ghostopedia:banshee/weakhands"
+	]
+}
